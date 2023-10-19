@@ -20,4 +20,8 @@ This function calculates Fibonacci numbers recursively. However, it's not effici
 
 This function uses memoization to optimize the Fibonacci calculation. It stores previously calculated Fibonacci numbers in a map to avoid redundant calculations and significantly speed up the calculation process.
 
+### `getFibonacciInput`
+
+This function is designed to obtain user input for the number of Fibonacci sequences they want to generate. It ensures that the input is a positive integer and returns the entered number as an integer or an error if the input is invalid.
+
 ## Be careful with [Stack Overflow](https://www.techtarget.com/whatis/definition/stack-overflow#:~:text=A%20stack%20overflow%20is%20a,been%20allocated%20to%20that%20stack.)!
